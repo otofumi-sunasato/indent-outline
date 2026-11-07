@@ -1,0 +1,39 @@
+{
+	"name": "indent-outline",
+	"displayName": "Indent Outline",
+	"description": "Show indentation-based plain text as an outline",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:plaintext"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "%configuration.title%",
+			"properties": {
+				"indentOutline.showIndentedLeafNodes": {
+					"type": "boolean",
+					"default": true,
+					"description": "%configuration.showIndentedLeafNodes.description%"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"package": "vsce package"
+	},
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"@types/vscode": "^1.85.0",
+		"@vscode/vsce": "^4.1.0",
+		"typescript": "^5.0.0"
+	}
+}

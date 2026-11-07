@@ -1,0 +1,4 @@
+{
+	"configuration.title": "Indent Outline",
+	"configuration.showIndentedLeafNodes.description": "Show indented lines that do not have child lines."
+}
