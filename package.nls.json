@@ -1,4 +1,6 @@
 {
+	"extension.displayName": "Indent Outline",
+	"extension.description": "Show indentation-based plain text as an outline.",
 	"configuration.title": "Indent Outline",
 	"configuration.showIndentedLeafNodes.description": "Show indented lines that do not have child lines."
 }

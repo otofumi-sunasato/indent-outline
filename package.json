@@ -1,8 +1,10 @@
 {
 	"name": "indent-outline",
-	"displayName": "Indent Outline",
-	"description": "Show indentation-based plain text as an outline",
+	"publisher": "otofumi-sunasato",
+	"displayName": "%extension.displayName%",
+	"description": "%extension.description%",
 	"version": "0.0.1",
+	"license": "MIT",
 	"engines": {
 		"vscode": "^1.85.0"
 	},

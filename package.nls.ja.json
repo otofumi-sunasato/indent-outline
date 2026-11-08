@@ -1,4 +1,6 @@
 {
+	"extension.displayName": "インデントアウトライン",
+	"extension.description": "プレーンテキストをインデントに基づくアウトラインとして表示します。",
 	"configuration.title": "インデントアウトライン",
-	"configuration.showIndentedLeafNodes.description": "子を持たないインデントを表示する"
+	"configuration.showIndentedLeafNodes.description": "子を持たないインデント行を表示します。"
 }
