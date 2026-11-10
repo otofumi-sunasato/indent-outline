@@ -13,6 +13,7 @@ export class IndentOutlineProvider implements vscode.DocumentSymbolProvider {
 		let previousDepth = 0;
 		let hasPreviousLine = false;
 		const tabSize = Config.getTabSize(document.uri);
+		const symbolKind = Config.getSymbolKind();
 
 		for (let line = 0; line < document.lineCount; line++) {
 			const text = document.lineAt(line).text;
@@ -43,7 +44,7 @@ export class IndentOutlineProvider implements vscode.DocumentSymbolProvider {
 			const symbol = new vscode.DocumentSymbol(
 				name,
 				"",
-				vscode.SymbolKind.String,
+				symbolKind,
 				range,
 				selectionRange,
 			);
@@ -75,7 +76,8 @@ export class IndentOutlineProvider implements vscode.DocumentSymbolProvider {
 			hasPreviousLine = true;
 		}
 
-		return createDocumentSymbols(nodes, Config.getShowIndentedLeafNodes());
+		const showIndentedLeafNodes = Config.getDisplayMode() === "allLines";
+		return createDocumentSymbols(nodes, showIndentedLeafNodes);
 	}
 }
 

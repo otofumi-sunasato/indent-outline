@@ -1,6 +1,15 @@
 {
-	"extension.displayName": "Indent Outline",
-	"extension.description": "Show indentation-based plain text as an outline.",
-	"configuration.title": "Indent Outline",
-	"configuration.showIndentedLeafNodes.description": "Show indented lines that do not have child lines."
+	"extension.displayName": "Plain Text Outline Navigator",
+	"extension.description": "View plain text as a compact, collapsible outline of all lines or a view that makes headings easier to identify.",
+	"configuration.title": "Plain Text Outline Navigator",
+	"configuration.displayMode.description": "Choose All Lines or a view that makes headings easier to identify.",
+	"configuration.displayMode.allLines.description": "Show all lines in a compact, collapsible view of the entire document.",
+	"configuration.displayMode.headingFocused.description": "Hide indented lines without children, which are likely to be content, to make headings easier to identify. Root lines are always shown.",
+	"configuration.symbolKind.description": "Choose the symbol icon used for outline entries.",
+	"configuration.symbolKind.string.description": "Use the String icon (abc).",
+	"configuration.symbolKind.constant.description": "Use the Constant icon.",
+	"configuration.symbolKind.method.description": "Use the Method icon.",
+	"configuration.symbolKind.number.description": "Use the Number icon (123).",
+	"configuration.symbolKind.array.description": "Use the Array icon ([]).",
+	"configuration.symbolKind.typeParameter.description": "Use the Type Parameter icon."
 }

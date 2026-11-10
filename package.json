@@ -3,7 +3,7 @@
 	"publisher": "otofumi-sunasato",
 	"displayName": "%extension.displayName%",
 	"description": "%extension.description%",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"license": "MIT",
 	"engines": {
 		"vscode": "^1.85.0"
@@ -19,10 +19,39 @@
 		"configuration": {
 			"title": "%configuration.title%",
 			"properties": {
-				"indentOutline.showIndentedLeafNodes": {
-					"type": "boolean",
-					"default": true,
-					"description": "%configuration.showIndentedLeafNodes.description%"
+				"indentOutline.displayMode": {
+					"type": "string",
+					"enum": [
+						"allLines",
+						"headingFocused"
+					],
+					"default": "allLines",
+					"description": "%configuration.displayMode.description%",
+					"enumDescriptions": [
+						"%configuration.displayMode.allLines.description%",
+						"%configuration.displayMode.headingFocused.description%"
+					]
+				},
+				"indentOutline.symbolKind": {
+					"type": "string",
+					"enum": [
+						"String",
+						"Constant",
+						"Method",
+						"Number",
+						"Array",
+						"TypeParameter"
+					],
+					"default": "String",
+					"description": "%configuration.symbolKind.description%",
+					"enumDescriptions": [
+						"%configuration.symbolKind.string.description%",
+						"%configuration.symbolKind.constant.description%",
+						"%configuration.symbolKind.method.description%",
+						"%configuration.symbolKind.number.description%",
+						"%configuration.symbolKind.array.description%",
+						"%configuration.symbolKind.typeParameter.description%"
+					]
 				}
 			}
 		}

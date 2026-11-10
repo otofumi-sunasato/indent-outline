@@ -1,6 +1,15 @@
 {
-	"extension.displayName": "インデントアウトライン",
-	"extension.description": "プレーンテキストをインデントに基づくアウトラインとして表示します。",
-	"configuration.title": "インデントアウトライン",
-	"configuration.showIndentedLeafNodes.description": "子を持たないインデント行を表示します。"
+	"extension.displayName": "Plain Text Outline Navigator",
+	"extension.description": "プレーンテキストを、全行を開閉できるコンパクトビューまたは見出しを捉えやすいビューで表示します。",
+	"configuration.title": "Plain Text Outline Navigator",
+	"configuration.displayMode.description": "全行表示 または 見出しが捉えやすい表示 を選択します。",
+	"configuration.displayMode.allLines.description": "全行を表示し、文書全体を開閉できるコンパクトなビューにします。",
+	"configuration.displayMode.headingFocused.description": "内容にあたると思われる、子を持たないインデント行を隠して見出しを捉えやすくします。ルート行は常に表示されます。",
+	"configuration.symbolKind.description": "アウトライン項目に使うシンボルアイコンを選択します。",
+	"configuration.symbolKind.string.description": "String アイコン（abc）を使います。",
+	"configuration.symbolKind.constant.description": "Constant アイコンを使います。",
+	"configuration.symbolKind.method.description": "Method アイコンを使います。",
+	"configuration.symbolKind.number.description": "Number アイコン（123）を使います。",
+	"configuration.symbolKind.array.description": "Array アイコン（[]）を使います。",
+	"configuration.symbolKind.typeParameter.description": "Type Parameter アイコンを使います。"
 }
