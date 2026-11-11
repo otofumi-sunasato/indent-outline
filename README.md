@@ -1,5 +1,7 @@
 # Plain Text Outline Navigator
 
+[日本語版](README.ja.md)
+
 Turn indentation in plain-text documents into a navigable hierarchy in the VS Code Outline view, without changing the original files.
 
 ## Two ways to use the outline

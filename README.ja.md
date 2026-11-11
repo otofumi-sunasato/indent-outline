@@ -1,5 +1,7 @@
 # Plain Text Outline Navigator
 
+[English version](README.md)
+
 プレーンテキストのインデントを、VS Code のアウトラインビューで開閉・移動できる階層として表示します。元のファイルは変更しません。
 
 ## 2つの表示モード
