@@ -3,6 +3,7 @@
 	"publisher": "otofumi-sunasato",
 	"displayName": "%extension.displayName%",
 	"description": "%extension.description%",
+	"icon": "images/icon.png",
 	"version": "0.1.0",
 	"license": "MIT",
 	"engines": {
